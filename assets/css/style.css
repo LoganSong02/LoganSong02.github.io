@@ -306,8 +306,9 @@ main {
   min-width: 259px;
 }
 
-
-
+.avatar-box img {
+  border-radius: 25%; /* Makes the image circular if it's square */
+}
 
 
 /*-----------------------------------*\
@@ -828,6 +829,23 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
+.experience ul {
+  list-style-type: disc; /* Display bullet points for main experience items */
+  padding-left: 30px; /* Adds indentation for bullets */
+}
+
+.experience ul ul {
+  list-style-type: circle; /* Display circle bullets for nested lists */
+  padding-left: 20px; /* Indent nested list */
+}
+
+.timeline-text {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
 
 
 /**

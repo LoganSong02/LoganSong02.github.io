@@ -127,7 +127,17 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+/* Keep all list items without bullets by default */
+li {
+  list-style: none;
+}
+
+/* Apply bullets only to lists inside .timeline-text */
+.timeline-text li {
+  list-style: disc; /* Use 'circle' or 'square' if preferred */
+  margin-left: 20px;
+}
+
 
 img, ion-icon, a, button, time, span { display: block; }
 

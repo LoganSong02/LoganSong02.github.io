@@ -212,7 +212,7 @@
             Hi! I'm Yuhang (Logan) Song, a Computer Science and Economics/Mathematics student at USC with a focus on software engineering and artificial intelligence. 
           </p>
           <p>
-            With strong programming, analytical, and mathematical skills, I bring over 4 years of experience in large-scale system development across Web and Android applications. I’m passionate about software engineering and AI and look forward to making a meaningful impact in these fields.
+            With strong programming, analytical, and mathematical skills, I bring over 4 years of experience in large-scale system development across Web and Android applications. I’m passionate about software engineering and machine learning and look forward to making a meaningful impact in these fields.
           </p>
         </section>
 
@@ -288,7 +288,7 @@
                 <h4 class="h4 service-item-title">Artificial Intelligence</h4>
               
                 <p class="service-item-text">
-                  Proficient in Machine Learning, delivering impactful and meaningful AI-driven products.
+                  Proficient in Machine Learning and LLM API integration, delivering impactful AI-driven products.
                 </p>
               </div>              
 
@@ -358,35 +358,29 @@
           <ol class="timeline-list">
 
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">University of Southern California</h4>
-
               <span>Aug 2021 – Dec 2025 (Anticipated)</span>
-
-              <p class="timeline-text">
-                • <strong>Double Major GPA: 3.91/4.0</strong> <br>
-                • Bachelor of Science in Computer Science; Bachelor of Science in Economics/Mathematics
-              </p>
-              <p class="timeline-text">
-                • Dean’s List: Fall 2021 – Spring 2024 <br>
-                • Academic Achievement Award: Spring 2023 – Fall 2024 (Totaling over $18,000)
-              </p>
-
+            
+              <ul class="timeline-text">
+                <li><strong>Double Major GPA: 3.91/4.0</strong></li>
+                <li>Bachelor of Science in Computer Science & Bachelor of Science in Economics/Mathematics</li>
+                <li>Dean’s List</li>
+                <li>Academic Achievement Award ($18,000)</li>
+              </ul>
             </li>
+            
 
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Shanghai Pinghe High School</h4>
-
               <span>2018 — 2021</span>
-
-              <p class="timeline-text">
-                • International Baccalaureate Diploma: Scored 44/45 <br>
-                • High School Outstanding Graduate <br>
-                • Pinghe High School Principal's Award
-              </p>
-
+            
+              <ul class="timeline-text">
+                <li>International Baccalaureate Diploma: Scored 44/45</li>
+                <li>High School Outstanding Graduate</li>
+                <li>Pinghe High School Principal's Award</li>
+              </ul>
             </li>
+            
           </ol>
 
         </section>
@@ -407,40 +401,36 @@
               <h4 class="h4 timeline-item-title">Tencent</h4>
               <span>Software Engineer Intern</span>
               <span>Jun 2024 — Aug 2024 | Shenzhen, Guangdong, China</span>
-              
-              <p class="timeline-text">
-                <ul>
-                  <li class="timeline-text">• Worked in the <strong>Esports Technology Team</strong> of <strong>Timi Studio Group</strong>, responsible for developing in-game live streaming components using <strong>Go</strong>, <strong>Lua</strong>, and <strong>C++</strong>.</li>
-                  <li class="timeline-text">• Built a <strong>log management module</strong> supporting automatic log retrieval and manual upload based on <strong>Tencent Cloud Object Storage</strong> (similar to <strong>AWS S3</strong>). This module locates log paths based on business requirements and outputs log data to designated storage, significantly increasing analysts' productivity.</li>
-                  <li class="timeline-text">• Developed a feature for in-game email dispatch by integrating a new <strong>MailPush RPC</strong>. Implemented an asynchronous email push mechanism to handle high <strong>QPS</strong> scenarios and ensure delivery, along with designing a <strong>MySQL</strong> schema to efficiently update email push task progress.</li>
-                  <li class="timeline-text">• Refactored the original <strong>MCP service</strong> to optimize user entry and exit management in live streaming rooms and implemented a graceful restart mechanism for <strong>long-lived TCP connections</strong>, enhancing system resilience.</li>
-                  <li class="timeline-text">• Enhanced service stability by non-intrusively uploading business-critical metrics about in-game streaming rooms and users into <strong>Galileo</strong>, Tencent's metrics monitoring platform.</li>
-                  <li class="timeline-text">• Constructed <strong>integration test suites</strong> for the refactored MCP service using the <strong>Ginkgo</strong> and <strong>Gomega</strong> testing frameworks. Conducted <strong>memory analysis</strong> using the <strong>Drop platform</strong> (based on <strong>Golang pprof</strong>) to optimize memory usage.</li>
-                </ul>                
-              </p>
+            
+              <ul class="timeline-text">
+                <li>Worked with the <strong>Esports Technology Team</strong> at <strong>Timi Studio Group</strong>, developing in-game live streaming components using <strong>Go</strong>, <strong>Lua</strong>, and <strong>C++</strong>.</li>
+                <li>Developed a <strong>log management module</strong> for <strong>Honor of Kings</strong> to automatically retrieve logs from user mobiles and upload them to <strong>Tencent Cloud Object Storage</strong> (similar to <strong>AWS S3</strong>). The module collects user logs based on data analyst requirements and allows them to download logs in specified formats from designated storage, reducing request turnaround time by <strong>70%</strong>.</li>
+                <li>Developed a feature to add a <strong>mail push interface</strong> to the management system, enabling the operations teams to send targeted emails to <strong>Yuan Meng Star</strong> players. Implemented an <strong>asynchronous email push mechanism</strong> to handle <strong>30,000+ QPS</strong> efficiently and integrated a new <strong>MailPush table</strong> into the <strong>MySQL schema</strong> to track email push task progress.</li>
+                <li>Refactored the original <strong>user entry and exit management service</strong> for live streaming rooms by implementing a <strong>graceful restart mechanism</strong> for <strong>long-lived TCP connections</strong>, enabling seamless server upgrades without triggering client reconnections, reducing <strong>5xx error rate</strong> during deployment from <strong>0.5% to 0.01%</strong>.</li>
+                <li>Implemented uploading of <strong>business-critical metrics</strong> for in-game streaming rooms and users into <strong>Galileo</strong>, Tencent's self-developed metrics monitoring platform. Configured <strong>cgroup</strong> to limit CPU and network bandwidth usage of the stats daemon.</li>
+                <li>Constructed <strong>integration test suites</strong> for the refactored service using the <strong>Ginkgo</strong> and <strong>Gomega</strong> testing frameworks and conducted <strong>memory analysis</strong> using the <strong>Drop platform</strong> (based on <strong>Golang pprof</strong>) to optimize memory usage, reducing it by <strong>15%</strong>.</li>
+              </ul>
             </li>
+            
 
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">USC Viterbi School of Engineering</h4>
               <span>Computer Science Course Producer</span>
               <span>Sep 2023 - Present | Los Angeles, CA, United States</span>
-  
-              <ul class="experience">
-                <li class="timeline-text">• Worked as an undergraduate teaching assistant for Computer Science Department.
+            
+              <ul class="timeline-text">
+                <li>Worked as an <strong>undergraduate teaching assistant</strong> for the <strong>Computer Science Department</strong>:
                   <ul>
-                    <li class="timeline-text">- CSCI170 Discrete Methods in Computer Science (Fall 2023)</li>
-                    <li class="timeline-text">- CSCI356 Introduction to Computer Systems (Spring 2024)</li>
-                    <li class="timeline-text">- CSCI350 Introduction to Operating Systems (Fall 2024 and Spring 2025)</li>
+                    <li>CSCI 170 - Discrete Methods in Computer Science (Fall 2023)</li>
+                    <li>CSCI 356 - Introduction to Computer Systems (Spring 2024)</li>
+                    <li>CSCI 350 - Introduction to Operating Systems (Fall 2024 - Present)</li>
                   </ul>
                 </li>
-                <li class="timeline-text">• Conducted weekly office hours to assist students with assignments and clarify complex topics.</li>
-                <li class="timeline-text">• Designed comprehensive assignments and midterm/final examinations for over 200 students.</li>
+                <li>Conducted weekly office hours to assist students with assignments and clarify complex topics.</li>
+                <li>Designed assignments and midterm/final exams for over 200 students.</li>
               </ul>
-              
-
-
             </li>
+            
 
           </ol>
 
@@ -456,7 +446,7 @@
 
       
                 <h5 class="h5">Programming Languages</h5>
-                <p class="timeline-text">Java, C++, Go, C, Python, JavaScript, Dart, Lua</p>
+                <p class="timeline-text">Java, Python, C++, Go, C, JavaScript, Dart, Lua</p>
    
 
             </li>
@@ -465,7 +455,7 @@
 
              
                 <h5 class="h5">Frameworks and Storage</h5>
-                <p class="timeline-text">React, Spring, Spring Boot, FastAPI, Flutter, MySQL, MongoDB, NocoDB, Redis, Kafka</p>
+                <p class="timeline-text">React, Spring, Spring Boot, FastAPI, Express, Flutter, MySQL, MongoDB, NocoDB, Redis, Kafka</p>
        
 
             </li>
@@ -474,7 +464,7 @@
 
               
                 <h5 class="h5">Platforms and Tools</h5>
-                <p class="timeline-text">Linux, Docker, Node.js, AWS, Android Studio, Firebase, JUnit, Postman, Grafana, GitHub</p>
+                <p class="timeline-text">Linux, AWS, Docker, Node.js, Android Studio, Firebase, JUnit, Postman, Grafana, GitHub</p>
 
 
             </li>
@@ -626,11 +616,35 @@
                   <h3 class="h3 blog-item-title">Unideer AI-Powered College Counseling Web Application</h3>
 
                   <p class="blog-text">
-                    React, Tailwind CSS, Python FastAPI, Domain-Driven Design, MySQL, NocoDB, Large Language Models (LLMs), LangChain, AI-powered chatbot, CI/CD
+                    React, Tailwind CSS, Python FastAPI, Domain-Driven Design, NocoDB, LLM APIs(DeepSeek, OpenAI), AI-powered chatbot, Redis
                   </p>
-
                 </div>
+              </a>
+            </li>
 
+            <li class="blog-post-item">
+              <a href="https://viterbischool.usc.edu/news/2024/07/california-dreams-takes-a-community-first-approach-to-making-math-meaningful/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Project-6.png" alt="Meridio Web-Based Math Learning Platform" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 2025 - Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Meridio Web-Based Math Learning Platform</h3>
+
+                  <p class="blog-text">
+                    React, Node.js, Express, GraphQL, Phaser, GPT-4 APIs, CI/CD, Docker, AWS
+                  </p>
+                </div>
               </a>
             </li>
 
@@ -655,7 +669,7 @@
                   <h3 class="h3 blog-item-title">PromptShare Pro Android App</h3>
 
                   <p class="blog-text">
-                    Android Studio, Java, Firebase, Espresso, JUnit, UI/UX Design (Figma), Agile Development
+                    Android Studio, Java, Firebase, Espresso, JUnit, UI/UX Design(Figma)
                   </p>
 
                 </div>
@@ -710,7 +724,7 @@
                   <h3 class="h3 blog-item-title">Height Fields Using Shaders</h3>
 
                   <p class="blog-text">
-                    OpenGL, Shaders, Camera Transformations, Rendering Height Field
+                    Create an interactive 3D height field from an image using OpenGL
                   </p>
 
                 </div>
@@ -738,7 +752,7 @@
                   <h3 class="h3 blog-item-title">Simulating a Roller Coaster</h3>
 
                   <p class="blog-text">
-                    Catmull-Rom Splines, Texture mapping, Phong shading, Camera Manipulations
+                    First-person roller coaster simulation with Catmull-Rom splines, texture mapping, and Phong shading.
                   </p>
 
                 </div>

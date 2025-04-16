@@ -1954,3 +1954,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-right: 6px; /* Adjust spacing as needed */
 }
 
+.info-content {
+  text-align: center;
+}

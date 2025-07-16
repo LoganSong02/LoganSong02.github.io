@@ -141,7 +141,7 @@ const pages = document.querySelectorAll("[data-page]");
 
 navigationLinks.forEach((navLink) => {
   navLink.addEventListener("click", () => {
-    const selectedPage = navLink.innerText.toLowerCase();
+    const selectedPage = navLink.innerText.toLowerCase().replace(/\s+/g, '-');
 
     // Remove 'active' class from all navigation links and pages
     navigationLinks.forEach((link) => link.classList.remove("active"));
